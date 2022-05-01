@@ -34,8 +34,8 @@ time.sleep(5)
 
 driver.get(url1)
 
-driver.find_element(by=By.NAME, value='loginName').send_keys('jjw3200')
-driver.find_element(by=By.NAME, value='passWord').send_keys('K553524377@')
+driver.find_element(by=By.NAME, value='loginName').send_keys('')
+driver.find_element(by=By.NAME, value='passWord').send_keys('')
 
 login = driver.find_element(by=By.NAME, value='loginbutton')
 login.click()
