@@ -1,6 +1,6 @@
 
 import unittest
-import time
+import timehttps://github.com/JaeukJeong/test/blob/master/naver.py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
@@ -11,8 +11,8 @@ from selenium.webdriver.support import expected_conditions as EC
 #import pyautogui as pag
 #from PIL import ImageGrab
 url1 = "https://www.naver.com"
-naver_id ="jjw3200"
-naver_pw="K553524#&&@"
+naver_id =""
+naver_pw=""
 
 
 # 상품url
